@@ -3,10 +3,10 @@ import shutil
 import glob
 
 # Set the source directory containing JPG files
-src_dir = "/path/to/source/directory"
+src_dir = "/Users/josemichaelrubio/Pictures/Ashley-Jake-Engagement-2024/Raw"
 
 # Set the destination directory where you want to move the JPG files
-dst_dir = "/path/to/destination/directory"
+dst_dir = "/Users/josemichaelrubio/Pictures/Ashley-Jake-Engagement-2024/Raw/jpg"
 
 # Create the destination directory if it doesn't exist
 os.makedirs(dst_dir, exist_ok=True)
